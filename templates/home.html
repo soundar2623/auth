@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Authentication</title>
+</head>
+<body>
+    <h1>Welcome to QR Authentication</h1>
+    <p>Enter a session ID to generate a QR code:</p>
+    <form action="/generate_qr" method="get">
+        <label for="session_id">Session ID:</label>
+        <input type="text" id="session_id" name="session_id">
+        <input type="submit" value="Generate QR Code">
+    </form>
+</body>
+</html>
